@@ -1,11 +1,13 @@
-import React from 'react'
-import './App.css'
+import { ReactElement } from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { AppRouter } from './components'
+import './index.css'
 
-function App() {
+function App(): ReactElement {
   return (
-    <React.Fragment>
-      <h1></h1>
-    </React.Fragment>
+    <Router>
+      <AppRouter />
+    </Router>
   )
 }
 
