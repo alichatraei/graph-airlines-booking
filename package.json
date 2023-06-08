@@ -11,9 +11,14 @@
     "check-types": "tsc --pretty --noEmit",
     "check-format": "prettier --check .",
     "check-format:fix": "prettier --write .",
-    "test-all":"pnpm run check-lint && pnpm run check-types && pnpm run check-format",
+    "test-all": "pnpm run check-lint && pnpm run check-types && pnpm run check-format",
     "preview": "vite preview",
     "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "pnpm run test-all"
+    }
   },
   "dependencies": {
     "react": "^18.2.0",
