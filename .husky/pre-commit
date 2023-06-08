@@ -5,6 +5,6 @@ echo 'Testing your project...'
 
 pnpm run test-all || (
   echo 'Failed tests',
-false)
+  false)
 
 
