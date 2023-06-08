@@ -3,7 +3,7 @@ import { useState } from "react"
 import "./App.css"
 
 function App() {
-  const [state, setState] = useState()
+  const [state] = useState()
   return (
     <React.Fragment>
       <h1></h1>
