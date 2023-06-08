@@ -17,7 +17,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "pnpm run test-all"
+      "pre-commit": "pnpm run test-all"
     }
   },
   "dependencies": {
