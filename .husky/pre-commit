@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo 'Testing your project...'
+
+pnpm run test-all || (echo 'Failed tests' false;)
+
