@@ -11,7 +11,8 @@
       "@assets/*": ["assets/*"],
       "@services/*": ["services/*"],
       "@utils/*": ["utils/*"],
-      "@components/*": ["components/*"]
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"]
     },
     /* Bundler mode */
     "moduleResolution": "bundler",
