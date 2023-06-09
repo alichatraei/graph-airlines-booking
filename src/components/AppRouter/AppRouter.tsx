@@ -7,7 +7,7 @@ import ProtectedRoute, {
 
 const AppRouter = () => {
   const defaultProtectedRouteProps: Omit<IProtectedRouteProps, 'outlet'> = {
-    isAuthenticated: true,
+    isAuthenticated: localStorage.getItem('token') ? true : false,
     authenticationPath: '/',
   }
   return (
