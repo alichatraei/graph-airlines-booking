@@ -7,7 +7,7 @@ import ProtectedRoute, {
 
 const AppRouter = () => {
   const defaultProtectedRouteProps: Omit<IProtectedRouteProps, 'outlet'> = {
-    isAuthenticated: false,
+    isAuthenticated: true,
     authenticationPath: '/',
   }
   return (
