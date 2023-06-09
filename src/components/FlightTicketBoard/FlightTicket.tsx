@@ -1,5 +1,6 @@
 import { ReactElement, useState } from 'react'
 import AirplaneIcon from '@assets/airplane.png'
+import './styles.css'
 
 const Flight = [
   {
