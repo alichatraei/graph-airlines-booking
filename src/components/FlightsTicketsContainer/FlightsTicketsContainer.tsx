@@ -23,7 +23,7 @@ const FlightsTicketsContainer = (): ReactElement => {
   }
 
   return (
-    <div className="flex flex-col items-around flex-1 justify-around w-full   mx-auto">
+    <div className="flex flex-col items-around flex-1 justify-around w-full   mx-auto container">
       <div className=" flex justify-between items-center">
         <span>Total items: {totalItems}</span>
         <span>Items displayed: {allData.length}</span>
